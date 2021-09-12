@@ -1,36 +1,36 @@
 /// 设置android端定位参数类
 class BaiduLocationAndroidOption {
   /// 坐标系类型
-  String coorType;
+  String? coorType;
 
   /// 是否需要返回地址信息
-  bool isNeedAddres;
+  bool? isNeedAddres;
 
   /// 是否需要返回海拔高度信息
-  bool isNeedAltitude;
+  bool? isNeedAltitude;
 
   /// 是否需要返回周边poi信息
-  bool isNeedLocationPoiList;
+  bool? isNeedLocationPoiList;
 
   /// 是否需要返回新版本rgc信息
-  bool isNeedNewVersionRgc;
+  bool? isNeedNewVersionRgc;
 
   /// 是否需要返回位置描述信息
-  bool isNeedLocationDescribe;
+  bool? isNeedLocationDescribe;
 
   /// 是否使用gps
-  bool openGps;
+  bool? openGps;
 
   /// 可选，设置发起定位请求的间隔，int类型，单位ms
   /// 如果设置为0，则代表单次定位，即仅定位一次，默认为0
   /// 如果设置非0，需设置1000ms以上才有效
-  int scanspan;
+  int? scanspan;
 
   /// 设置定位模式，可选的模式有高精度、仅设备、仅网络。默认为高精度模式
-  int locationMode;
+  int? locationMode;
 
   /// 可选，设置场景定位参数，包括签到场景、运动场景、出行场景
-  int locationPurpose;
+  int? locationPurpose;
 
   /// 可选，设置返回经纬度坐标类型，默认GCJ02
   /// GCJ02：国测局坐标；

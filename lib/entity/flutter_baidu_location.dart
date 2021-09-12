@@ -1,56 +1,56 @@
 /// 百度定位结果类，用于存储各类定位结果信息
 class BaiduLocation {
   /// 定位成功时间
-  final String locTime;
+  final String? locTime;
 
   /// 定位结果类型
-  final int locType;
+  final int? locType;
 
   /// 半径
-  final double radius;
+  final double? radius;
 
   /// 纬度
-  final double latitude;
+  final double? latitude;
 
   /// 经度
-  final double longitude;
+  final double? longitude;
 
   /// 海拔
-  final double altitude;
+  final double? altitude;
 
   /// 国家
-  final String country;
+  final String? country;
 
   /// 省份
-  final String province;
+  final String? province;
 
   /// 城市
-  final String city;
+  final String? city;
 
   /// 区县
-  final String district;
+  final String? district;
 
   /// 街道
-  final String street;
+  final String? street;
 
   /// 地址
-  final String address;
+  final String? address;
 
   /// 位置语义化描述，例如"在百度大厦附近"
-  final String locationDetail;
+  final String? locationDetail;
 
   /// 周边poi信息，每个poi之间用"|"隔开
 
-  final String poiList;
+  final String? poiList;
 
   /// 定位结果回调时间
-  final String callbackTime;
+  final String? callbackTime;
 
   /// 错误码
-  final int errorCode;
+  final int? errorCode;
 
   /// 定位失败描述信息
-  final String errorInfo;
+  final String? errorInfo;
 
   BaiduLocation(
       {this.locTime,

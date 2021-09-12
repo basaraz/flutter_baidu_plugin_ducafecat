@@ -1,31 +1,31 @@
 /// 设置ios端定位参数类
 class BaiduLocationIOSOption {
   /// 设置位置获取超时时间
-  int locationTimeout;
+  int? locationTimeout;
 
   /// 设置获取地址信息超时时间
-  int reGeocodeTimeout;
+  int? reGeocodeTimeout;
 
   /// 设置应用位置类型
-  String activityType;
+  String? activityType;
 
   /// 设置返回位置的坐标系类型
-  String BMKLocationCoordinateType;
+  String? BMKLocationCoordinateType;
 
   /// 设置预期精度参数
-  String desiredAccuracy;
+  String? desiredAccuracy;
 
   /// 是否需要最新版本rgc数据
-  bool isNeedNewVersionRgc;
+  bool? isNeedNewVersionRgc;
 
   /// 指定定位是否会被系统自动暂停
-  bool pausesLocationUpdatesAutomatically;
+  bool? pausesLocationUpdatesAutomatically;
 
   /// 指定是否允许后台定位
-  bool allowsBackgroundLocationUpdates;
+  bool? allowsBackgroundLocationUpdates;
 
   /// 设定定位的最小更新距离
-  double distanceFilter;
+  double? distanceFilter;
 
   /// 指定是否允许后台定位
   /// allowsBackgroundLocationUpdates为true则允许后台定位
